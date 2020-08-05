@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.7.1/lottie.min.js" integrity="sha512-bydaxcpHiWGaIdaqCwrSYIXjj4xRh4P1C3BE+AdJUgYAKAhEWeAt5GzDgeYdLT+MGBYeLPJf7cTz4llPwwdk+A==" crossorigin="anonymous"></script>
+  <title>Document</title>
+  <style>
+    .anim-svg {
+      position: absolute;
+      display: flex;
+      width: 100%;
+      max-width: 1000px;
+    }
+    .container {
+      display: flex;
+      justify-content: center;
+      width: 100vw;
+    }
+  
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="anim-svg" id="google"></div>
+    <div class="anim-svg" id="shopify"></div>
+    <div class="anim-svg" id="any-service"></div>
+  </div>
+  <button onclick="toggleGoogle();">google</button>
+  <button onclick="toggleShopify();">shopify</button>
+  <button onclick="toggleAnyService();">any service</button>
+</body>
+<script src="index.js"></script>
+</html>
