@@ -89,7 +89,6 @@ AnimationController.prototype._run = function(segment) {
   } else {
     this.controller.playSegments(segment, true);
   }
-  console.log(this.controller)
 }
 
 
